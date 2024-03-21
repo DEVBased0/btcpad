@@ -1,0 +1,31 @@
+.connect-btn {
+  --border-animate-color: DodgerBlue;
+}
+
+.create-btn {
+  --border-animate-color: orange;
+}
+
+.update-btn {
+  --border-animate-color: aqua;
+}
+
+.create-btn,
+.update-btn,
+.connect-btn:not(:hover) {
+  border: 1px solid;
+  animation: borderAnimate 10s ease-in-out 0s infinite;
+}
+
+@keyframes borderAnimate {
+  0%,
+  100% {
+    border-color: var(--border-animate-color);
+  }
+  33% {
+    border-color: DarkGray;
+  }
+  66% {
+    border-color: DarkOrange;
+  }
+}

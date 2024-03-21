@@ -1,0 +1,16 @@
+.wallet-adapter-dropdown-list-item,
+.wallet-adapter-button-trigger,
+.wallet-adapter-button-trigger:hover,
+.wallet-adapter-button-trigger:active {
+  font-size: var(--nextui-font-size-small);
+  font-weight: 500;
+  padding: 0 var(--nextui-spacing-unit-4);
+  line-height: var(--nextui-line-height-small);
+}
+
+.wallet-adapter-button-trigger,
+.wallet-adapter-button-trigger:hover,
+.wallet-adapter-button-trigger:active {
+  background: transparent !important;
+  height: var(--nextui-spacing-unit-10);
+}
